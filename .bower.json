@@ -1,0 +1,14 @@
+{
+  "name": "tech_blog_template",
+  "homepage": "https://github.com/methanol-dev/tech_blog_template",
+  "_release": "b4f894df3c",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "b4f894df3c536fa71be3487ec9896766a86fbd3d"
+  },
+  "_source": "https://github.com/methanol-dev/tech_blog_template.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/methanol-dev/tech_blog_template.git",
+  "_direct": true
+}

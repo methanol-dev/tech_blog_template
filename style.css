@@ -7,9 +7,10 @@
 
 **************************************/
 
+
 /**************************************
     Table of Content
-    
+
     1. BASIC
     2. HEADER
     3. SECTION
@@ -19,7 +20,8 @@
     7. WIDGETS
 **************************************/
 
-/* BASIC 
+
+/* BASIC
 **************************************/
 
 body {
@@ -130,7 +132,7 @@ a {
 }
 
 
-/* HEADER 
+/* HEADER
 **************************************/
 
 .header {
@@ -699,7 +701,7 @@ div.tab button:hover {
 }
 
 
-/* PAGES 
+/* PAGES
 **************************************/
 
 .notfound h2 {
@@ -833,7 +835,7 @@ div.tab button:hover {
 }
 
 
-/* BLOG 
+/* BLOG
 **************************************/
 
 .carousel-indicators li {
@@ -940,7 +942,7 @@ div.tab button:hover {
 }
 
 .blog-title-area .breadcrumb-item.active,
-.blog-title-area .breadcrumb-item + .breadcrumb-item::before,
+.blog-title-area .breadcrumb-item+.breadcrumb-item::before,
 .blog-title-area .blog-meta small,
 .blog-title-area a {
     color: #a3a5a8;
@@ -1320,7 +1322,7 @@ hr.invis3 {
 }
 
 
-/* WIDGETS 
+/* WIDGETS
 **************************************/
 
 .sidebar .widget {
@@ -1673,4 +1675,112 @@ hr.invis3 {
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     border-radius: 50%
+}
+
+.reply-commentform {
+    display: none;
+}
+
+.edit-parent-comment {
+    display: none;
+}
+
+.eidt-children-comment {
+    display: none;
+}
+
+#mr-2 {
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.post-action {
+    display: inline-flex;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: #17A2B8;
+}
+
+.dropdown-menu {
+    top: 60px;
+    right: 0px;
+    left: unset;
+    width: 460px;
+    box-shadow: 0px 5px 7px -1px #c1c1c1;
+    padding-bottom: 0px;
+    padding: 0px;
+}
+
+.dropdown-menu:before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    right: 12px;
+    border: 10px solid #343A40;
+    border-color: transparent transparent #343A40 transparent;
+}
+
+.head {
+    padding: 5px 15px;
+    border-radius: 3px 3px 0px 0px;
+}
+
+.footer {
+    padding: 5px 15px;
+    border-radius: 0px 0px 3px 3px;
+}
+
+.notification-box {
+    padding: 10px 0px;
+}
+
+.bg-gray {
+    background-color: #eee;
+}
+
+@media (max-width: 640px) {
+    .dropdown-menu {
+        top: 50px;
+        left: -16px;
+        width: 290px;
+    }
+    .nav {
+        display: block;
+    }
+    .nav .nav-item,
+    .nav .nav-item a {
+        padding-left: 0px;
+    }
+    .message {
+        font-size: 13px;
+    }
+}
+
+#show-notification {
+    height: auto;
+    max-height: 600px;
+    overflow-x: hidden;
+}
+
+.notification-box {
+    background-color: rgb(232,228,228);
+}
+
+.read {
+    background-color: rgb(252, 248, 248);
+}
+
+li > .notification-box {
+    list-style: none;
+}
+
+.box {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.box-noti {
+    border-bottom: #343A40 1px solid;
 }
